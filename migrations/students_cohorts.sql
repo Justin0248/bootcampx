@@ -10,6 +10,7 @@ end_date TEXT);
 
 CREATE TABLE cohorts(
 id SERIAL PRIMARY KEY NOT NULL, 
+name TEXT,
 start_date TEXT, 
 end_date TEXT);
 
