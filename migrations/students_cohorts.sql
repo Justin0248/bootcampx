@@ -13,8 +13,3 @@ id SERIAL PRIMARY KEY NOT NULL,
 name TEXT,
 start_date TEXT, 
 end_date TEXT);
-
-CREATE TABLE teachers(
-id INTEGER PRIMARY KEY);
-CREATE TABLE assistance_requests(
-id INTEGER PRIMARY KEY);
